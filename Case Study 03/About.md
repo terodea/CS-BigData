@@ -12,3 +12,8 @@ The Uber dataset consists of four columns; they are
 1. Find the days on which each basement has more trips.
 2. Find the days on which each basement has more number of active vehicles.
 
+
+# SOLUTIONS :-
+1. Mapper
+2. Reducer
+3. Driver 
