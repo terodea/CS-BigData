@@ -1,6 +1,5 @@
 # Case Studies
-
-A repository of real life case studies. Problems associated with this real life case studies are solved using various Big Data technologies. You might think that some of the problems can be solved using better way, easier way,or don't even require big data technology  but the whole point of this repository is to put Big Data technologies into use to solve the problems associated with the particular case study.
+A collection of case studies, where i frame a problem and solve it using various technologies mostly big data but not limited to. Problems associated with this real life case studies are solved using various Big Data technologies. You might think that some of the problems can be solved using better way, easier way,or don't even require big data technology  but the whole point of this repository is to put Big Data technologies into use to solve the problems associated with the particular case study.
 
 Big Data Technologies Used : 
 1. Apache Kafka
@@ -14,10 +13,14 @@ Big Data Technologies Used :
 5. Apache Flink
 6. Apache Hadoop
     - 6.1 Map Reduce
-    
+    - 6.2 Chained Map Reduce
+    - 6.3 Map Only
+    - 6.4 Reduce Only
+    - 6.5 Map-Partition-Reducer 
 7. Apache Pig
 8. Apache Druid
 9. Apache Storm
 10. Apache Flume
-
+11. Apache Sqoop
+12. ElasticSearch 
 At the moment solving problems using Map Reduce.
