@@ -24,3 +24,23 @@ Big Data Technologies Used :
 11. Apache Sqoop
 12. ElasticSearch 
 At the moment solving problems using Map Reduce.
+
+Docker Usage: <br/>
+1. Start cloudera-manager automatically
+```console
+username@hostname:~$ sudo apt-get update
+username@hostname:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+username@hostname:~$ sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -d -v /your/local_path/to/code/:/src --publish-all=true -p 8888:8888 -p 80:80 -p 7180:7180 cloudera/quickstart /home/cloudera/cloudera-manager --express
+```
+2. Start All the big data services automatically.
+```console
+username@hostname:~$ sudo apt-get update
+username@hostname:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+username@hostname:~$ sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -d -v /your/local_path/to/code/:/src --publish-all=true -p 8888:8888 -p 80:80 -p 7180:7180 cloudera/quickstart /usr/bin/docker-quickstart
+```
+3. Start Service manually
+```console
+username@hostname:~$ sudo apt-get update
+username@hostname:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+username@hostname:~$ sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -d -v /your/local_path/to/code/:/src --publish-all=true -p 8888:8888 -p 80:80 -p 7180:7180 cloudera/quickstart /bin/bash
+```
