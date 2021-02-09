@@ -1,0 +1,10 @@
+venv
+.idea
+/.project
+/.idea
+/.pydevproject
+/ooda/logs
+*__pycache__
+.ipynb_checkpoints
+/.ipynb_checkpoints/
+*.cache-main
