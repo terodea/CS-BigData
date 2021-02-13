@@ -8,3 +8,5 @@ venv
 .ipynb_checkpoints
 /.ipynb_checkpoints/
 *.cache-main
+*cache-main
+
