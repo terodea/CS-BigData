@@ -11,7 +11,7 @@ object AverageConnectionsForAge extends App{
    */
   Logger.getLogger("org").setLevel(Level.ERROR)
   val sc = new SparkContext("local[*]", "AverageConnectionsForAges")
-  sc.textFile("/home/akshay/xflow/personal/CS-BigData/00-Data/FriendsData.csv").
+  sc.textFile("/home/akshay/*/CS-BigData/00-Data/FriendsData.csv").
   map(x => x.split("::")).map(x => (x(2).toInt,(x(3).toInt,1))).
   reduceByKey((x,y) => (x._1 + y._1, x._2 + y._2)).
   map(x => (x._1, x._2._1 / x._2._2)).

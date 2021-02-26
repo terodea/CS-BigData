@@ -10,7 +10,7 @@ object MovieRatingOptimized extends App{
    */
   Logger.getLogger("org").setLevel(Level.ERROR)
   val sc = new SparkContext("local[*]", "MovieRatingsOptimized")
-  sc.textFile("/home/akshay/xflow/personal/CS-BigData/00-Data/MovieData.data").
+  sc.textFile("/home/akshay/*/CS-BigData/00-Data/MovieData.data").
   map(x => x.split("\t")(2)).
   countByValue.
   foreach(println)  

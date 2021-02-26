@@ -10,6 +10,6 @@ object TopTenShopoholicCustomers extends App{
    */
   Logger.getLogger("org").setLevel(Level.ERROR)
   val sc = new SparkContext("local[*]", "wordcountLower")
-  sc.textFile("/home/akshay/xflow/personal/CS-BigData/00-Data/CustomerOrders.csv").map(x => (x.split(","))).map(x => (x(0), x(2).toFloat)).reduceByKey((x,y) => x+y).sortBy(x => x._2).collect.foreach(println)
+  sc.textFile("/home/akshay/*/CS-BigData/00-Data/CustomerOrders.csv").map(x => (x.split(","))).map(x => (x(0), x(2).toFloat)).reduceByKey((x,y) => x+y).sortBy(x => x._2).collect.foreach(println)
   
 }
