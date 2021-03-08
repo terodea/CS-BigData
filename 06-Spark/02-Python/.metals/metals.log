@@ -1,0 +1,1231 @@
+[0m2021.03.09 01:12:29 INFO  Started: Metals version 0.10.0 in workspace '/home/akshay/xflow/personal/CS-BigData/06-Spark/02-Python' for client vscode 1.54.1.[0m
+[0m2021.03.09 01:12:29 INFO  time: initialize in 0.59s[0m
+[0m2021.03.09 01:12:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.09 01:12:31 WARN  no build tool detected in workspace '/home/akshay/xflow/personal/CS-BigData/06-Spark/02-Python'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.09 01:12:31 WARN  no build target for: /home/akshay/xflow/personal/CS-BigData/06-Spark/01-Scala/src/dataframes/customers/PerCustomerOrderCount.scala[0m
+[0m2021.03.09 01:12:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+[0m2021.03.09 01:12:38 INFO  time: code lens generation in 1.3s[0m
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+[0m2021.03.09 01:12:38 INFO  time: code lens generation in 6.59s[0m
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:34:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:35:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:35:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:36:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:36:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:37:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:37:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:37:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:40:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:40:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 84
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:40:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:41:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:42:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 1:53:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 2:03:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 2:03:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+package dataframes.customers
+
+import org.apache.spark.SparkConf
+import org.apache.spark.sql.SparkSession
+
+object PerCustomerOrderCount extends App{
+  /*
+   * Problem Statement: Count Orders Placed by a customer having order_customer_id > 10000.
+   */
+  val sparkConf = new SparkConf()
+  sparkConf.set("spark.app.name", "CountOfOrderPerCustomer")
+  sparkConf.set("spark.master", "local[2]")
+  
+  val spark = SparkSession.builder()
+  .config(sparkConf)
+  .getOrCreate()
+  
+  val ordersDf = spark.read.
+  option("header", true).
+  option("inferSchema", true).
+  csv("/home/akshay/*/CS-BigData/00-Data/Orders.csv")
+  
+  val ordersCount = ordersDf.repartition(4).where("order_customer_id > 10000").select("order_id", "order_customer_id").groupBy("order_customer_id").count()
+  ordersCount.show()
+  scala.io.StdIn.readLine()
+  spark.stop()
+}
+Mar 09, 2021 2:03:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+[0m2021.03.09 02:03:37 INFO  shutting down Metals[0m
