@@ -11,6 +11,12 @@ import java.sql.Timestamp
 case class OrdersData (order_id: Int, order_date: String, order_customer_id: Integer, order_status: String)
 
 object DataFrameToDataSet extends App{
+  /*
+   * Schema Infer Types:
+   * 1. InferSchema: Spark infers automatic
+   * 2. Implicit: Specify using Scala DataTypes
+   * 3. Explicit: Using Case Class.
+   */
   val spark_conf = new SparkConf()
   spark_conf.set("spark.app.name", "DataFrameToDataSetConversion")
   spark_conf.set("spark.master", "local[2]")
