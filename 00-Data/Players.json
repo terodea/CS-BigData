@@ -1,0 +1,6 @@
+{"player_id":101, "player_name":"R Sharma", "age":33, "role":"Batsman", "team_id":11, "country":"IND"}
+{"player_id":102, "player_name":"S Iyer", "age":25, "role":"Batsman", "team_id":15, "country":"IND"}
+{"player_id":103, "player_name":"T Boult", "age":30, "role":"Bowler", "team_id":13, "country":"NZ"}
+{"player_id":104, "player_name":"MS Dhoni", "age":38, "role":"WKeeper", "team_id":14, "country":"IND"}
+{"player_id":105, "player_name":"S Watson", "age":39, "role":"Allrounder", "team_id":12, "country":"AUS"}
+{"player_id":106, "player_name":"S Hetmyer", "age":23, "role":"Batsman", "team_id":16, "country":"WI"}
