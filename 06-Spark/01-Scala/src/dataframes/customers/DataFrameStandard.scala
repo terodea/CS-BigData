@@ -10,7 +10,7 @@ object DataFrameStandard extends App{
   spark_conf.set("spark.master","local[2]")
   
   val spark = SparkSession.builder().config(spark_conf).getOrCreate()
-  val ordersDf = spark.read.format("csv").option("header", true).option("inferSchema", true).option("path", "/home/akshay/xflow/personal/CS-BigData/00-Data/Orders.csv").load
+  val ordersDf = spark.read.format("csv").option("header", true).option("inferSchema", true).option("path", "/home/akshay/*/CS-BigData/00-Data/Orders.csv").load
   ordersDf.show()
   ordersDf.printSchema()
   spark.stop()

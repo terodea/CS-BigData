@@ -17,7 +17,7 @@ object ExplicitSchema extends App{
   
   val spark = SparkSession.builder().config(spark_conf).getOrCreate()
   val customers_schema = StructType(List(StructField("orderid", IntegerType),StructField("orderdate", StringType),StructField("customerid", IntegerType),StructField("status", StringType)))
-  val ordersDf = spark.read.format("csv").option("header", true).schema(customers_schema).option("path", "/home/akshay/xflow/personal/CS-BigData/00-Data/Orders.csv").load
+  val ordersDf = spark.read.format("csv").option("header", true).schema(customers_schema).option("path", "/home/akshay/*/CS-BigData/00-Data/Orders.csv").load
   ordersDf.show()
   spark.stop()
 }
