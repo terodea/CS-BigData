@@ -18,3 +18,4 @@ object DataFrameReadParquet extends App{
   usersDf.show(false)
   spark.stop()
 }
+
