@@ -9,4 +9,6 @@ venv
 /.ipynb_checkpoints/
 *.cache-main
 *cache-main
-
+*06-Spark/01-Scala/spark-warehouse/
+*06-Spark/01-Scala/metastore_db/
+*06-Spark/01-Scala/derby.log

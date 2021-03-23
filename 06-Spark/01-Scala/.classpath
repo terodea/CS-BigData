@@ -249,5 +249,6 @@
 	<classpathentry kind="lib" path="/opt/spark/jars/zjsonpatch-0.3.0.jar"/>
 	<classpathentry kind="lib" path="/opt/spark/jars/zookeeper-3.4.14.jar"/>
 	<classpathentry kind="lib" path="/opt/spark/jars/zstd-jni-1.4.4-3.jar"/>
+	<classpathentry kind="lib" path="/home/akshay/Desktop/spark-hive_2.12-3.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
