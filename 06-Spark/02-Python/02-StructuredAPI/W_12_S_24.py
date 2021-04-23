@@ -53,4 +53,4 @@ if __name__ == '__main__':
     spark_conf.set("spark.main", "local[2]")
     spark = SparkSession.builder.config(conf=spark_conf).getOrCreate()
     main()
-    spark.stop()
+    input()
