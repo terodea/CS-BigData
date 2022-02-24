@@ -14,3 +14,4 @@ venv
 *06-Spark/01-Scala/derby.log
 *.metals
 *.vscode
+*.DS_Store
