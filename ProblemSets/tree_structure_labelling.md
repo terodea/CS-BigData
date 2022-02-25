@@ -74,3 +74,28 @@ SELECT
 FROM
     tree
 ```
+
+- Sub Querries (Generic Approach)
+
+```SQL
+WITH parent_table AS (
+    SELECT
+        parent
+    FROM
+        tree
+);
+
+SELECT
+    node,
+    CASE
+        WHEN parent IS NULL THEN "Root"
+        WHEN node NOT IN ( 
+            SELECT parent FROM parent_table 
+        ) AND parent IS NOT NULL THEN "Leaf"
+        WHEN node IN ( 
+            SELECT parent FROM parent_table
+        ) AND parent IS NOT NULL THEN "Inner"
+    END AS label
+FROM
+    tree
+```
