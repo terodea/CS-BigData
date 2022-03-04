@@ -8,12 +8,17 @@ import pandas as pd
 from sys import exc_info
 
 class IngestFinancialData:
+    """
+    TODO:
+    1. Streaming Service [Kafka, Spark Structured Streaming]
+    2. Design and Create Schema
+    """
     __slots__ = ["session", "logger"]
     __doc__ = ""
 
-    is_digit = lambda _val: bool(re.match('^[0-9\.]*$',_val))
-    is_comma_numeric = lambda _val: bool(re.match('^[0-9\,]*$',_val))
-    is_percent = lambda _val: bool(re.match('^[0-9\%]*$',_val))
+    is_digit = lambda _val: bool(re.match('^[0-9\.]*$',_val)) # 3.19
+    is_comma_numeric = lambda _val: bool(re.match('^[0-9\,]*$',_val)) # 3,19
+    is_percent = lambda _val: bool(re.match('^[0-9\%]*$',_val)) # 3% identify for  3.19%
     
     def __init__(self) -> None:
         self.session = None
