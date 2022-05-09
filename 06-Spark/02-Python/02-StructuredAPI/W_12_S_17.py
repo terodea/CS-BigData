@@ -11,9 +11,10 @@ def main():
     3. SparkSQL
     """
     # 1. Column Object Expression
-    invoiceDf = spark.read.option("header", True).option("inferSchema", True).csv(f"{os.environ.get('DATA_PATH')}/OrderData.csv")
+    DATA_PATH = "/Users/akshayterode/Desktop/DEV/CS-BigData/00-Data"
+    invoiceDf = spark.read.option("header", True).option("inferSchema", True).csv(f"{DATA_PATH}/OrderData.csv")
     invoiceDf.groupBy("Country", "InvoiceNo").agg(
-        sum("Quantity").alias("TotalQuantity"), sum(expr("Quantity * UnitPrice")).alias("InvoiceValue")
+        sum("Quantity").alias("TotalQuantity"), round(sum(expr("Quantity * UnitPrice")),2).alias("InvoiceValue")
     ).show()
 
     # 2. String Object Expression

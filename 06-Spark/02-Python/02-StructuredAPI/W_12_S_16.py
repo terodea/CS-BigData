@@ -7,10 +7,11 @@ def main():
     """
     Simple Aggregrators
     """
+    DATA_PATH = "/Users/akshayterode/Desktop/DEV/CS-BigData/00-Data"
     invoiceDf = spark.read.\
         option("header", True)\
             .option("inferSchema", True)\
-                .csv(f"{os.environ.get('DATA_PATH')}/OrderData.csv")
+                .csv(f"{DATA_PATH}/OrderData.csv")
                 
     # Column Object Expression
     invoiceDf.select(
