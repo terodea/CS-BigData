@@ -1,0 +1,6 @@
+Emp_ID,Emp_name,Dept_id,Salary,DOJ,Manager_id,cummulative_salary_dept
+1,Ankit,1,10000,1/20/2020,2,10000
+2,Suresh,1,12000,1/21/2020,3,22000
+3,Neeraj,3,15000,1/22/2020,Null,15000
+4,Gaurav,2,14000,1/23/2020,3,14000
+5,Abhinav,2,10000,1/24/2020,4,24000

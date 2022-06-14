@@ -24,6 +24,7 @@ class ChargePointsETLJob:
 
     def transform(self, df):
         """
+        df.withColumn('test', F.concat_ws(" ", "StartDate", "StartTime")).withColumn("test", F.unix_timestamp(F.col("test"), "yyyy-MM-dd HH:mm:ss")).show()
         """
         time_spent = df.withColumn("time_spent", F.round((F.col("endTs") - F.col("startTs"))/3600,2))
         ans = time_spent.groupBy("CPID").agg(
