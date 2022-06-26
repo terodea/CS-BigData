@@ -20,6 +20,7 @@ INSERT INTO icc_world_cup values('Aus','India','India');
 ### Solution:
 
 #### SQL:
+1. Brute Force
 ```SQL
 WITH 
     cte_all AS (
@@ -51,4 +52,18 @@ FROM cte_uniq c
             LEFT JOIN cte_loss l 
                 ON l.losser = c.team 
 ORDER BY win_count DESC, loss_count ASC; 
-"""
+```
+
+2. Optimized
+```SQL
+SELECT team_name, count(1) AS no_of_matches_played, SUM(win_flag) AS no_of_matches_won, COUNT(1) - SUM(win_flag) AS no_of_losses
+FROM(
+    SELECT team_1 AS team_name, CASE WHEN team_1=winner THEN 1 ELSE 0 END AS win_flag
+    FROM icc_world_cup
+    UNION ALL
+    SELECT team_2 AS team_name, CASE WHEN team_2=winner THEN 1 ELSE 0 END AS win_flag
+    FROM icc_world_cup
+) A
+GROUP BY team_name
+ORDER BY no_of_matches_won DESC;
+```
