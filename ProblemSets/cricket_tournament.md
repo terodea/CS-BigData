@@ -67,3 +67,18 @@ FROM(
 GROUP BY team_name
 ORDER BY no_of_matches_won DESC;
 ```
+
+
+3. 
+```SQL
+WITH temp AS (
+    SELECT team_1 AS team, winner 
+    FROM icc_world_cup 
+    UNION ALL
+    SELECT team_2 AS team, winner 
+    FROM icc_world_cup
+) 
+SELECT team, COUNT(1) no_of_matches_played, SUM(CASE WHEN winner = team THEN 1 ELSE 0 END) wins, SUM(CASE WHEN winner <> team THEN 1 ELSE 0 END) losses 
+FROM temp
+GROUP BY team;
+```
