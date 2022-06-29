@@ -69,7 +69,7 @@ ORDER BY no_of_matches_won DESC;
 ```
 
 
-3. 
+3. CASE WHEN Optimized
 ```SQL
 WITH temp AS (
     SELECT team_1 AS team, winner 
@@ -78,7 +78,70 @@ WITH temp AS (
     SELECT team_2 AS team, winner 
     FROM icc_world_cup
 ) 
-SELECT team, COUNT(1) no_of_matches_played, SUM(CASE WHEN winner = team THEN 1 ELSE 0 END) wins, SUM(CASE WHEN winner <> team THEN 1 ELSE 0 END) losses 
-FROM temp
+SELECT 
+    team, 
+    COUNT(1) AS no_of_matches_played, 
+    SUM(CASE WHEN winner = team THEN 1 ELSE 0 END) AS no_of_matches_won, 
+    SUM(CASE WHEN winner <> team THEN 1 ELSE 0 END) AS no_of_matches_lost 
+FROM temp 
+GROUP BY team;
+```
+
+4. IF Optimized
+```SQL
+WITH temp AS (
+    SELECT team_1 AS team, winner 
+    FROM icc_world_cup 
+    UNION ALL
+    SELECT team_2 AS team, winner 
+    FROM icc_world_cup
+) 
+SELECT 
+    team, 
+    COUNT(1) AS no_of_matches_played, 
+    SUM(IF(winner = team, 1,0)) AS no_of_matches_won, 
+    SUM(IF(winner <> team,1,0)) AS no_of_matches_lost 
+FROM temp 
+GROUP BY team;
+```
+
+5. **Additional Question :** Write No of draws too.
+```SQL
+WITH temp AS (
+    SELECT team_1 AS team, winner 
+    FROM icc_world_cup 
+    UNION ALL
+    SELECT team_2 AS team, winner 
+    FROM icc_world_cup
+) 
+SELECT 
+    team, 
+    COUNT(1) AS no_of_matches_played, 
+    SUM(IF(winner = team, 1,0)) AS no_of_matches_won, 
+    SUM(IF(winner <> team AND winner != 'DRAW',1,0)) AS no_of_matches_lost,
+    SUM(IF(winner = 'DRAW', 1, 0)) AS no_of_draw
+FROM temp 
+GROUP BY team;
+```
+
+6. **Additional Questions:** Calculate % of match won and lost (most easy and optimised approach)
+
+```SQL
+WITH temp AS (
+    SELECT team_1 AS team, winner 
+    FROM icc_world_cup 
+    UNION ALL
+    SELECT team_2 AS team, winner 
+    FROM icc_world_cup
+) 
+SELECT 
+    team, 
+    COUNT(1) AS no_of_matches_played, 
+    SUM(IF(winner = team, 1,0)) AS no_of_matches_won, 
+    SUM(IF(winner <> team AND winner != 'DRAW',1,0)) AS no_of_matches_lost,
+    SUM(IF(winner = 'DRAW', 1, 0)) AS no_of_draw,
+    ROUND((SUM(IF(winner = team, 1,0))/COUNT(team))*100,2) AS won_match_percentage,
+    ROUND((SUM(IF(winner <> team AND winner != 'DRAW',1,0))/COUNT(team))*100,2) AS won_match_percentage
+FROM temp 
 GROUP BY team;
 ```
