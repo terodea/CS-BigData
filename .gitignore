@@ -15,3 +15,4 @@ venv
 *.metals
 *.vscode
 *.DS_Store
+*check_pt_1

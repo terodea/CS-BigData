@@ -18,10 +18,10 @@ class DataGenerator:
             self.DATE_START = self.DATE_END + relativedelta(months=-1)
             self.MAX_LIVES = 10
             self.MIN_LIVES = 1
-            self.NUM_EVENTS = int(args.get("no_of_events", 2))
+            self.NUM_EVENTS = int(args.get("no_of_events", 1))
             self.MIN_SALARY = int(args.get("min_salary", 50000))
             self.MAX_SALARY = int(args.get("max_salary", 700000))
-            self._generate_events()
+            # self._generate_events()
         except Exception as err:
             raise err
 
@@ -55,4 +55,4 @@ if __name__ == "__main__":
     parser.add_argument("--min_salary", help="Min Salary", type=int)
     parser.add_argument("--max_salary", help="Max Salary", type=int)
     _args = vars(parser.parse_args())
-    DataGenerator(args=_args)
+    DataGenerator(args=_args)._generate_events()
