@@ -1,0 +1,464 @@
+Match,Innings,match_date,Versus,Ground,How Dismissed,Runs,Balls_faced,strike_rate
+1,1,12/18/1989,Pakistan,Jinnah Stadium (Gujwranwala),c Wasim Akram b Waqar Younis,0,2,0
+2,2,3/1/1990,New Zealand,Carisbrook,c & b S A Thomson,0,2,0
+3,3,3/6/1990,New Zealand,Basin Reserve,c †I D S Smith b S A Thomson,36,39,92.31
+4,4,4/25/1990,Sri Lanka,Sharjah Cricket Stadium,run out,10,12,83.33
+5,5,4/27/1990,Pakistan,Sharjah Cricket Stadium,c Saeed Anwar b Imran Khan,20,25,80
+6,6,7/18/1990,England,Headingley,b D E Malcolm,19,35,54.29
+7,7,7/20/1990,England,Trent Bridge,b A R C Fraser,31,26,119.23
+8,8,12/1/1990,Sri Lanka,Vidarbha Cricket Association Ground,b R J Ratnayake,36,22,163.64
+9,9,12/5/1990,Sri Lanka,Nehru Stadium (Pune),b G F Labrooy,53,41,129.27
+10,10,12/8/1990,Sri Lanka,Nehru Stadium (Margao),c & b S D Anurasiri,30,29,103.45
+11,,12/25/1990,Bangladesh,Sector 16 Stadium,did not bat,,,
+12,11,12/28/1990,Sri Lanka,Barabati Stadium,lbw b A Ranatunga,4,11,36.36
+13,12,1/4/1991,Sri Lanka,Eden Gardens,lbw b R J Ratnayake,53,70,75.71
+14,13,10/18/1991,Pakistan,Sharjah Cricket Stadium,not out,52,40,130
+15,14,10/19/1991,West Indies,Sharjah Cricket Stadium,run out,22,27,81.48
+16,15,10/22/1991,West Indies,Sharjah Cricket Stadium,not out,11,27,40.74
+17,16,10/23/1991,Pakistan,Sharjah Cricket Stadium,c sub b Saleem Malik,49,38,128.95
+18,17,10/25/1991,Pakistan,Sharjah Cricket Stadium,lbw b Aaqib Javed,0,1,0
+19,18,11/10/1991,South Africa,Eden Gardens,c R P Snell b A A Donald,62,73,84.93
+20,19,11/12/1991,South Africa,Captain Roop Singh Stadium,c †D J Richardson b C R Matthews,4,8,50
+21,20,11/14/1991,South Africa,Jawaharlal Nehru Stadium (Delhi),c S J Cook b A A Donald,1,3,33.33
+22,21,12/6/1991,West Indies,WACA Ground,c R B Richardson b A C Cummins,1,9,11.11
+23,22,12/8/1991,Australia,WACA Ground,c P L Taylor b T M Moody,36,65,55.38
+24,23,12/10/1991,Australia,Bellerive Oval,c S R Waugh b P L Taylor,57,107,53.27
+25,24,12/14/1991,West Indies,Adelaide Oval,c & b K L T Arthurton,48,57,84.21
+26,25,12/15/1991,Australia,Adelaide Oval,c D M Jones b S R Waugh,21,35,60
+27,26,1/11/1992,West Indies,Brisbane Cricket Ground,c sub b A C Cummins,77,127,60.63
+28,27,1/14/1992,Australia,Sydney Cricket Ground,run out,31,44,70.45
+29,28,1/16/1992,West Indies,Melbourne Cricket Ground,not out,57,88,64.77
+30,29,1/18/1992,Australia,Melbourne Cricket Ground,c M R Whitney b T M Moody,4,10,40
+31,30,1/20/1992,Australia,Sydney Cricket Ground,c M R Whitney b S R Waugh,69,100,69
+32,31,2/22/1992,England,WACA Ground,c †A J Stewart b I T Botham,35,44,79.55
+33,,2/28/1992,Sri Lanka,Harrup Park,did not bat,,,
+34,32,3/1/1992,Australia,Brisbane Cricket Ground,c S R Waugh b T M Moody,11,19,57.89
+35,33,3/4/1992,Pakistan,Sydney Cricket Ground,not out,54,62,87.1
+36,34,3/7/1992,Zimbabwe,Seddon Park,c A D R Campbell b M G Burmester,81,77,105.19
+37,35,3/10/1992,West Indies,Basin Reserve,c †D Williams b C E L Ambrose,4,11,36.36
+38,36,3/12/1992,New Zealand,Carisbrook,c †I D S Smith b C Z Harris,84,107,78.5
+39,37,3/15/1992,South Africa,Adelaide Oval,c K C Wessels b A P Kuiper,14,14,100
+40,38,10/25/1992,Zimbabwe,Harare Sports Club,c D H Brain b G J Crocker,39,56,69.64
+41,39,12/7/1992,South Africa,Newlands,b B M McMillan,15,27,55.56
+42,40,12/9/1992,South Africa,St George's Park,c †D J Richardson b D J Callaghan,10,36,27.78
+43,41,12/11/1992,South Africa,SuperSport Park,c †D J Richardson b C R Matthews,22,24,91.67
+44,42,12/13/1992,South Africa,Wanderers Stadium,c B M McMillan b A A Donald,21,44,47.73
+45,43,12/15/1992,South Africa,Mangaung Oval,b P S De Villiers,32,52,61.54
+46,44,12/17/1992,South Africa,Kingsmead,c W J Cronje b M W Pringle,23,39,58.97
+47,45,12/19/1992,South Africa,Buffalo Park,c †D J Richardson b C R Matthews,21,38,55.26
+48,46,1/18/1993,England,Sawai Mansingh Stadium,not out,82,81,101.23
+49,47,1/21/1993,England,Sector 16 Stadium,lbw b P A J De Freitas,1,5,20
+50,48,2/26/1993,England,M Chinnaswamy Stadium,c G A Hick b C C Lewis,3,6,50
+51,49,3/1/1993,England,Keenan Stadium,b P W Jarvis,24,32,75
+52,50,3/4/1993,England,Captain Roop Singh Stadium,b P W Jarvis,5,6,83.33
+53,51,3/5/1993,England,Captain Roop Singh Stadium,c sub b C C Lewis,34,30,113.33
+54,52,3/19/1993,Zimbabwe,Nahar Singh Stadium,c & b G W Flower,3,9,33.33
+55,53,3/22/1993,Zimbabwe,Nehru Stadium (Guwahati),not out,8,6,133.33
+56,,3/25/1993,Zimbabwe,Nehru Stadium (Pune),did not bat,,,
+57,54,7/25/1993,Sri Lanka,R Premadasa Stadium,c A P Gurusinha b S T Jayasuriya,21,39,53.85
+58,55,8/12/1993,Sri Lanka,R Premadasa Stadium,run out,15,30,50
+59,56,8/14/1993,Sri Lanka,Tyronne Fernando Stadium,c M Muralitharan b S T Jayasuriya,25,39,64.1
+60,57,11/7/1993,Sri Lanka,Green Park,not out,26,30,86.67
+61,58,11/16/1993,West Indies,Narendra Modi Stadium,lbw b C A Walsh,2,8,25
+62,59,11/18/1993,Zimbabwe,Nehru Stadium (Indore),c & b H H Streak,24,16,150
+63,60,11/22/1993,South Africa,Punjab Cricket Association IS Bindra Stadium,c †D J Richardson b W J Cronje,3,25,12
+64,61,11/24/1993,South Africa,Eden Gardens,c †D J Richardson b R P Snell,15,31,48.39
+65,62,11/27/1993,West Indies,Eden Gardens,not out,28,43,65.12
+66,63,2/15/1994,Sri Lanka,Madhavrao Scindia Cricket Ground,c A Ranatunga b R S Kalpage,1,5,20
+67,64,2/18/1994,Sri Lanka,Lal Bahadur Shastri Stadium,not out,11,18,61.11
+68,65,2/20/1994,Sri Lanka,Gandhi Stadium,run out,52,63,82.54
+69,66,3/25/1994,New Zealand,McLean Park,c K R Rutherford b D J Nash,15,19,78.95
+70,67,3/27/1994,New Zealand,Eden Park,c & b M N Hart,82,49,167.35
+71,68,3/30/1994,New Zealand,Basin Reserve,lbw b G R Larsen,63,75,84
+72,69,4/2/1994,New Zealand,AMI Stadium,b G R Larsen,40,26,153.85
+73,70,4/13/1994,United Arab Emirates,Sharjah Cricket Stadium,c †Imtiaz Abbasi b Sultan Zarawani,63,77,81.82
+74,71,4/15/1994,Pakistan,Sharjah Cricket Stadium,c Basit Ali b Akram Raza,73,64,114.06
+75,72,4/19/1994,Australia,Sharjah Cricket Stadium,c M A Taylor b G D McGrath,6,7,85.71
+76,73,4/22/1994,Pakistan,Sharjah Cricket Stadium,c Aamir Sohail b AtaUrRehman,24,26,92.31
+77,74,9/4/1994,Sri Lanka,R Premadasa Stadium,not out,11,16,68.75
+78,75,9/5/1994,Sri Lanka,R Premadasa Stadium,c H D P K Dharmasena b G P Wickramasinghe,6,5,120
+79,76,9/9/1994,Australia,R Premadasa Stadium,b C J McDermott,110,130,84.62
+80,77,9/17/1994,Sri Lanka,Sinhalese Sports Club Ground,c P A de Silva b W P U J C Vaas,0,2,0
+81,78,10/17/1994,West Indies,Nahar Singh Stadium,c B C Lara b C A Walsh,0,4,0
+82,79,10/20/1994,West Indies,Wankhede Stadium,c C L Hooper b C E Cuffy,0,4,0
+83,80,10/23/1994,West Indies,MA Chidambaram Stadium,c C L Hooper b A C Cummins,8,24,33.33
+84,81,10/28/1994,New Zealand,Reliance Stadium,run out,115,136,84.56
+85,82,10/30/1994,West Indies,Green Park,b A C Cummins,34,47,72.34
+86,83,11/3/1994,New Zealand,Arun Jaitley Stadium,b M N Hart,62,54,114.81
+87,84,11/5/1994,West Indies,Eden Gardens,c S C Williams b C E Cuffy,66,68,97.06
+88,85,11/7/1994,West Indies,Indira Priyadarshini Stadium,c A C Cummins b C L Hooper,54,64,84.38
+89,86,11/9/1994,West Indies,Barabati Stadium,b P V Simmons,88,112,78.57
+90,87,11/11/1994,West Indies,Sawai Mansingh Stadium,c †J C Adams b B S Browne,105,134,78.36
+91,88,2/16/1995,New Zealand,McLean Park,c S A Thomson b D K Morrison,13,15,86.67
+92,89,2/18/1995,South Africa,Seddon Park,c P L Symcox b W J Cronje,37,51,72.55
+93,90,2/22/1995,Australia,Carisbrook,c M A Taylor b J Angel,47,40,117.5
+94,91,4/5/1995,Bangladesh,Sharjah Cricket Stadium,b Mohammad Rafique,48,30,160
+95,92,4/7/1995,Pakistan,Sharjah Cricket Stadium,c †Moin Khan b Aaqib Javed,4,9,44.44
+96,93,4/9/1995,Sri Lanka,Sharjah Cricket Stadium,not out,112,107,104.67
+97,94,4/14/1995,Sri Lanka,Sharjah Cricket Stadium,c S T Jayasuriya b C P H Ramanayake,41,41,100
+98,95,11/15/1995,New Zealand,Keenan Stadium,c M J Greatbatch b D K Morrison,30,20,150
+99,96,11/18/1995,New Zealand,Gandhi Sports Complex Ground,c †L K Germon b S A Thomson,39,51,76.47
+100,97,11/24/1995,New Zealand,Nehru Stadium (Pune),c G R Larsen b D K Morrison,7,11,63.64
+101,98,11/26/1995,New Zealand,Vidarbha Cricket Association Ground,run out,65,59,110.17
+102,99,11/29/1995,New Zealand,Brabourne Stadium,b D K Morrison,1,4,25
+103,100,2/18/1996,Kenya,Barabati Stadium,not out,127,138,92.03
+104,101,2/21/1996,West Indies,Captain Roop Singh Stadium,run out,70,91,76.92
+105,102,2/27/1996,Australia,Wankhede Stadium,st I A Healy b M E Waugh,90,84,107.14
+106,103,3/2/1996,Sri Lanka,Arun Jaitley Stadium,run out,137,137,100
+107,104,3/6/1996,Zimbabwe,Green Park,b H H Streak,3,12,25
+108,105,3/9/1996,Pakistan,M Chinnaswamy Stadium,b AtaUrRehman,31,59,52.54
+109,106,3/13/1996,Sri Lanka,Eden Gardens,st R S Kaluwitharana b S T Jayasuriya,65,88,73.86
+110,107,4/3/1996,Sri Lanka,Padang Cricket Ground,c S T Jayasuriya b G P Wickramasinghe,28,31,90.32
+111,108,4/5/1996,Pakistan,Padang Cricket Ground,st Rashid Latif b Saqlain Mushtaq,100,111,90.09
+112,109,4/12/1996,Pakistan,Sharjah Cricket Stadium,c Saeed Anwar b Aaqib Javed,1,5,20
+113,110,4/14/1996,South Africa,Sharjah Cricket Stadium,c G Kirsten b P S De Villiers,2,15,13.33
+114,111,4/15/1996,Pakistan,Sharjah Cricket Stadium,c Aamir Sohail b Waqar Younis,118,140,84.29
+115,112,4/17/1996,South Africa,Sharjah Cricket Stadium,c G Kirsten b P S De Villiers,17,26,65.38
+116,113,4/19/1996,South Africa,Sharjah Cricket Stadium,run out,57,71,80.28
+117,114,5/23/1996,England,Kennington Oval,lbw b P J Martin,30,19,157.89
+118,115,5/25/1996,England,Headingley,run out,6,19,31.58
+119,116,5/26/1996,England,Old Trafford,c G A Hick b D G Cork,1,11,9.09
+120,117,8/28/1996,Sri Lanka,R Premadasa Stadium,run out,110,138,79.71
+121,118,9/1/1996,Zimbabwe,Sinhalese Sports Club Ground,c B C Strang b H H Streak,40,46,86.96
+122,119,9/6/1996,Australia,Sinhalese Sports Club Ground,c S R Waugh b G D McGrath,7,11,63.64
+123,120,9/16/1996,Pakistan,"Cricket, Skating & Curling Club",not out,89,89,100
+124,121,9/17/1996,Pakistan,"Cricket, Skating & Curling Club",c Wasim Akram b Azhar Mahmood,20,23,86.96
+125,122,9/18/1996,Pakistan,"Cricket, Skating & Curling Club",c Aamir Sohail b Wasim Akram,2,13,15.38
+126,123,9/21/1996,Pakistan,"Cricket, Skating & Curling Club",c Saleem Malik b Wasim Akram,3,9,33.33
+127,124,9/23/1996,Pakistan,"Cricket, Skating & Curling Club",run out,23,44,52.27
+128,125,10/17/1996,South Africa,Lal Bahadur Shastri Stadium,c D J Cullinan b P S De Villiers,11,8,137.5
+129,126,10/21/1996,Australia,M Chinnaswamy Stadium,lbw b S R Waugh,88,111,79.28
+130,127,10/23/1996,South Africa,Sawai Mansingh Stadium,c G Kirsten b B M McMillan,64,93,68.82
+131,128,10/29/1996,South Africa,Madhavrao Scindia Cricket Ground,lbw b A A Donald,28,38,73.68
+132,129,11/3/1996,Australia,Punjab Cricket Association IS Bindra Stadium,c S G Law b M E Waugh,62,60,103.33
+133,130,11/6/1996,South Africa,Wankhede Stadium,c W J Cronje b N Boje,67,88,76.14
+134,131,12/14/1996,South Africa,Wankhede Stadium,st G Kirsten b N Boje,114,126,90.48
+135,132,1/23/1997,South Africa,Mangaung Oval,b S M Pollock,0,4,0
+136,133,1/27/1997,Zimbabwe,Boland Park,c A D R Campbell b E A Brandes,6,8,75
+137,134,2/2/1997,South Africa,St George's Park,b A A Donald,1,14,7.14
+138,135,2/4/1997,South Africa,Buffalo Park,c D J Cullinan b L Klusener,14,24,58.33
+139,136,2/7/1997,Zimbabwe,SuperSport Park,c A C Waller b A D R Campbell,41,56,73.21
+140,137,2/9/1997,Zimbabwe,Willowmoore Park,c A D R Campbell b C N Evans,104,97,107.22
+141,138,2/12/1997,South Africa,Kingsmead,c J N Rhodes b L Klusener,32,27,118.52
+142,139,2/13/1997,South Africa,Kingsmead,c R E Bryson b W J Cronje,45,33,136.36
+143,140,2/15/1997,Zimbabwe,Queens Sports Club,c G W Flower b E A Brandes,13,15,86.67
+144,141,4/26/1997,West Indies,Queen's Park Oval,c †C O Browne b C E L Ambrose,44,43,102.33
+145,142,4/27/1997,West Indies,Queen's Park Oval,not out,65,70,92.86
+146,143,4/30/1997,West Indies,Arnos Vale Ground,b C A Walsh,9,15,60
+147,144,5/3/1997,West Indies,Kensington Oval,c B C Lara b C A Walsh,1,11,9.09
+148,145,5/14/1997,New Zealand,M Chinnaswamy Stadium,b N J Astle,117,137,85.4
+149,146,5/17/1997,Sri Lanka,Wankhede Stadium,c H D P K Dharmasena b K S C de Silva,2,4,50
+150,147,5/21/1997,Pakistan,MA Chidambaram Stadium,c InzamamulHaq b Aaqib Javed,4,7,57.14
+151,148,7/18/1997,Sri Lanka,R Premadasa Stadium,b W P U J C Vaas,21,28,75
+152,,7/20/1997,Pakistan,Sinhalese Sports Club Ground,did not bat,,,
+153,149,7/24/1997,Bangladesh,Sinhalese Sports Club Ground,b Enamul Haque,28,21,133.33
+154,150,7/26/1997,Sri Lanka,R Premadasa Stadium,c R S Kalpage b M Muralitharan,53,67,79.1
+155,151,8/17/1997,Sri Lanka,R Premadasa Stadium,c M Muralitharan b W P U J C Vaas,27,28,96.43
+156,152,8/20/1997,Sri Lanka,R Premadasa Stadium,lbw b W P U J C Vaas,6,6,100
+157,153,8/23/1997,Sri Lanka,Sinhalese Sports Club Ground,c A Ranatunga b D K Liyanage,27,31,87.1
+158,154,8/24/1997,Sri Lanka,Sinhalese Sports Club Ground,c †S K L de Silva b K S C de Silva,39,32,121.88
+159,155,9/13/1997,Pakistan,"Cricket, Skating & Curling Club",c Mohammad Akram b Azhar Mahmood,17,54,31.48
+160,156,9/14/1997,Pakistan,"Cricket, Skating & Curling Club",not out,25,45,55.56
+161,,9/17/1997,Pakistan,"Cricket, Skating & Curling Club",did not bat,,,
+162,157,9/18/1997,Pakistan,"Cricket, Skating & Curling Club",c †Moin Khan b Mohammad Akram,0,10,0
+163,158,9/20/1997,Pakistan,"Cricket, Skating & Curling Club",c †Moin Khan b Shahid Nazir,6,7,85.71
+164,159,9/21/1997,Pakistan,"Cricket, Skating & Curling Club",lbw b Azhar Mahmood,51,64,79.69
+165,160,9/28/1997,Pakistan,Niaz Stadium,b Waqar Younis,2,11,18.18
+166,161,9/30/1997,Pakistan,National Stadium (Karachi),c †Moin Khan b Azhar Mahmood,21,18,116.67
+167,162,10/2/1997,Pakistan,Gaddafi Stadium,c InzamamulHaq b Aaqib Javed,7,11,63.64
+168,163,12/11/1997,England,Sharjah Cricket Stadium,st A J Stewart b M V Fleming,91,87,104.6
+169,164,12/14/1997,Pakistan,Sharjah Cricket Stadium,c InzamamulHaq b Manzoor Akhtar,3,4,75
+170,165,12/16/1997,West Indies,Sharjah Cricket Stadium,run out,1,2,50
+171,166,12/22/1997,Sri Lanka,Nehru Stadium (Guwahati),not out,82,86,95.35
+172,,12/25/1997,Sri Lanka,Nehru Stadium (Indore),did not bat,,,
+173,167,12/28/1997,Sri Lanka,Nehru Stadium (Margao),c K S C de Silva b M Muralitharan,6,13,46.15
+174,168,1/10/1998,Bangladesh,Bangabandhu National Stadium,c & b Mohammad Rafique,54,76,71.05
+175,169,1/11/1998,Pakistan,Bangabandhu National Stadium,st Rashid Latif b Saqlain Mushtaq,67,44,152.27
+176,170,1/14/1998,Pakistan,Bangabandhu National Stadium,b Shahid Afridi,95,78,121.79
+177,171,1/16/1998,Pakistan,Bangabandhu National Stadium,b Azhar Mahmood,1,6,16.67
+178,172,1/18/1998,Pakistan,Bangabandhu National Stadium,c Azhar Mahmood b Shahid Afridi,41,26,157.69
+179,173,4/1/1998,Australia,Nehru Stadium (Kochi),c R T Ponting b M S Kasprowicz,8,11,72.73
+180,174,4/5/1998,Zimbabwe,Reliance Stadium,run out,5,17,29.41
+181,175,4/7/1998,Australia,Green Park,c sub b S K Warne,100,89,112.36
+182,176,4/9/1998,Zimbabwe,Barabati Stadium,c †A Flower b M Mbangwa,1,2,50
+183,177,4/14/1998,Australia,Arun Jaitley Stadium,c †A C Gilchrist b D W Fleming,15,24,62.5
+184,178,4/17/1998,New Zealand,Sharjah Cricket Stadium,c S B Doull b C Z Harris,40,41,97.56
+185,179,4/19/1998,Australia,Sharjah Cricket Stadium,c †A C Gilchrist b D W Fleming,80,72,111.11
+186,180,4/20/1998,New Zealand,Sharjah Cricket Stadium,run out,38,58,65.52
+187,181,4/22/1998,Australia,Sharjah Cricket Stadium,c †A C Gilchrist b D W Fleming,143,131,109.16
+188,182,4/24/1998,Australia,Sharjah Cricket Stadium,lbw b M S Kasprowicz,134,131,102.29
+189,183,5/25/1998,Bangladesh,Wankhede Stadium,c Aminul Islam b Athar Ali Khan,33,29,113.79
+190,184,5/28/1998,Kenya,Captain Roop Singh Stadium,c A Y A Karim b M A Suji,18,25,72
+191,185,5/31/1998,Kenya,Eden Gardens,not out,100,103,97.09
+192,186,6/19/1998,Sri Lanka,R Premadasa Stadium,c M S Atapattu b M Muralitharan,65,50,130
+193,187,6/23/1998,New Zealand,R Premadasa Stadium,c & b C Z Harris,53,36,147.22
+194,188,7/1/1998,Sri Lanka,Sinhalese Sports Club Ground,c & b H D P K Dharmasena,17,16,106.25
+195,,7/3/1998,New Zealand,Sinhalese Sports Club Ground,did not bat,,,
+196,189,7/7/1998,Sri Lanka,R Premadasa Stadium,st R S Kaluwitharana b S T Jayasuriya,128,131,97.71
+197,190,9/20/1998,Pakistan,"Cricket, Skating & Curling Club",c InzamamulHaq b Aamir Sohail,77,109,70.64
+198,191,9/26/1998,Zimbabwe,Queens Sports Club,not out,127,130,97.69
+199,192,9/27/1998,Zimbabwe,Queens Sports Club,c C B Wishart b M L Nkala,29,21,138.1
+200,193,9/30/1998,Zimbabwe,Harare Sports Club,c C N Evans b H H Streak,2,6,33.33
+201,194,10/28/1998,Australia,Bangabandhu National Stadium,run out,141,128,110.16
+202,195,10/31/1998,West Indies,Bangabandhu National Stadium,c C L Hooper b M V Dillon,8,14,57.14
+203,196,11/6/1998,Sri Lanka,Sharjah Cricket Stadium,c †R S Kaluwitharana b W P U J C Vaas,3,6,50
+204,197,11/8/1998,Zimbabwe,Sharjah Cricket Stadium,not out,118,112,105.36
+205,198,11/9/1998,Sri Lanka,Sharjah Cricket Stadium,c M S Atapattu b G P Wickramasinghe,18,28,64.29
+206,199,11/11/1998,Zimbabwe,Sharjah Cricket Stadium,c G W Flower b H K Olonga,11,12,91.67
+207,200,11/13/1998,Zimbabwe,Sharjah Cricket Stadium,not out,124,92,134.78
+208,201,1/9/1999,New Zealand,Owen Delany Park,c C Z Harris b C L Cairns,0,5,0
+209,202,1/12/1999,New Zealand,McLean Park,c B A Young b D J Nash,23,19,121.05
+210,203,1/14/1999,New Zealand,Basin Reserve,st A C Parore b G R Larsen,45,42,107.14
+211,204,1/16/1999,New Zealand,Eden Park,lbw b C L Cairns,5,12,41.67
+212,205,5/15/1999,South Africa,County Ground (Hove),c †M V Boucher b L Klusener,28,46,60.87
+213,206,5/23/1999,Kenya,County Ground (Bristol),not out,140,101,138.61
+214,207,5/26/1999,Sri Lanka,The Cooper Associates County Ground,b S T Jayasuriya,2,3,66.67
+215,208,5/29/1999,England,Edgbaston,c G A Hick b M A Ealham,22,40,55
+216,209,6/4/1999,Australia,Kennington Oval,c †A C Gilchrist b G D McGrath,0,4,0
+217,210,6/8/1999,Pakistan,Old Trafford,c Saqlain Mushtaq b Azhar Mahmood,45,65,69.23
+218,211,6/12/1999,New Zealand,Trent Bridge,b D J Nash,16,22,72.73
+219,212,8/23/1999,Australia,Galle International Stadium,c D S Lehmann b T M Moody,14,33,42.42
+220,213,8/25/1999,Sri Lanka,R Premadasa Stadium,run out,37,58,63.79
+221,214,8/29/1999,Sri Lanka,Sinhalese Sports Club Ground,c M Muralitharan b D N T Zoysa,120,141,85.11
+222,215,9/4/1999,Zimbabwe,Kallang Ground,c S V Carlisle b A R Whittall,85,72,118.06
+223,216,9/7/1999,West Indies,Kallang Ground,c †R D Jacobs b C A Walsh,40,65,61.54
+224,217,9/8/1999,West Indies,Kallang Ground,c H R Bryan b C A Walsh,0,6,0
+225,218,11/5/1999,New Zealand,Madhavrao Scindia Cricket Ground,c C L Cairns b S B Styris,32,31,103.23
+226,219,11/8/1999,New Zealand,Lal Bahadur Shastri Stadium,not out,186,150,124
+227,220,11/11/1999,New Zealand,Captain Roop Singh Stadium,c S P Fleming b C J Drum,1,23,4.35
+228,221,11/14/1999,New Zealand,Nehru Stadium (Guwahati),c C M Spearman b C J Drum,2,10,20
+229,222,11/17/1999,New Zealand,Arun Jaitley Stadium,c & b D L Vettori,0,3,0
+230,223,1/10/2000,Pakistan,Brisbane Cricket Ground,b Abdul Razzaq,13,26,50
+231,224,1/12/2000,Australia,Melbourne Cricket Ground,run out,12,11,109.09
+232,225,1/14/2000,Australia,Sydney Cricket Ground,c †A C Gilchrist b G D McGrath,1,11,9.09
+233,226,1/21/2000,Pakistan,Bellerive Oval,b Abdul Razzaq,93,103,90.29
+234,227,1/25/2000,Pakistan,Adelaide Oval,c †Moin Khan b Abdul Razzaq,41,46,89.13
+235,228,1/26/2000,Australia,Adelaide Oval,c S C G MacGill b B Lee,18,28,64.29
+236,229,1/28/2000,Pakistan,WACA Ground,c †Moin Khan b Waqar Younis,17,14,121.43
+237,230,1/30/2000,Australia,WACA Ground,b D W Fleming,3,21,14.29
+238,231,3/9/2000,South Africa,Nehru Stadium (Kochi),c H S Williams b M Hayward,26,25,104
+239,232,3/12/2000,South Africa,Keenan Stadium,c W J Cronje b S M Pollock,21,31,67.74
+240,233,3/15/2000,South Africa,Nahar Singh Stadium,lbw b S M Pollock,12,28,42.86
+241,234,3/17/2000,South Africa,Reliance Stadium,c S Elworthy b J H Kallis,122,138,88.41
+242,235,3/19/2000,South Africa,Vidarbha Cricket Association Ground,c S Elworthy b D N Crookes,93,89,104.49
+243,236,3/22/2000,South Africa,Sharjah Cricket Stadium,b S M Pollock,5,8,62.5
+244,237,3/23/2000,Pakistan,Sharjah Cricket Stadium,lbw b Shoaib Akhtar,11,28,39.29
+245,238,3/26/2000,Pakistan,Sharjah Cricket Stadium,b Wasim Akram,10,18,55.56
+246,239,3/27/2000,South Africa,Sharjah Cricket Stadium,run out,39,68,57.35
+247,240,5/30/2000,Bangladesh,Bangabandhu National Stadium,c Habibul Bashar b Mushfiqur Rahman,36,25,144
+248,241,6/1/2000,Sri Lanka,Bangabandhu National Stadium,c D P M D Jayawardene b K Weeraratne,93,95,97.89
+249,242,6/3/2000,Pakistan,Bangabandhu National Stadium,lbw b Abdul Razzaq,25,30,83.33
+250,243,10/3/2000,Kenya,Gymkhana Club Ground,lbw b A O Suji,25,35,71.43
+251,244,10/7/2000,Australia,Gymkhana Club Ground,c D R Martyn b B Lee,38,37,102.7
+252,245,10/13/2000,South Africa,Gymkhana Club Ground,c L Klusener b J H Kallis,39,50,78
+253,246,10/15/2000,New Zealand,Gymkhana Club Ground,run out,69,83,83.13
+254,247,10/20/2000,Sri Lanka,Sharjah Cricket Stadium,run out,101,140,72.14
+255,248,10/22/2000,Zimbabwe,Sharjah Cricket Stadium,c †A Flower b H H Streak,8,15,53.33
+256,249,10/26/2000,Zimbabwe,Sharjah Cricket Stadium,c P A Strang b T J Friend,4,10,40
+257,250,10/27/2000,Sri Lanka,Sharjah Cricket Stadium,c W P U J C Vaas b M Muralitharan,61,54,112.96
+258,251,10/29/2000,Sri Lanka,Sharjah Cricket Stadium,c & b W P U J C Vaas,5,11,45.45
+259,252,12/2/2000,Zimbabwe,Barabati Stadium,c H H Streak b D P Viljoen,44,49,89.8
+260,253,12/5/2000,Zimbabwe,Narendra Modi Stadium,c †A Flower b T J Friend,8,20,40
+261,254,12/8/2000,Zimbabwe,Barkatullah Khan Stadium,c M L Nkala b H H Streak,146,153,95.42
+262,255,12/11/2000,Zimbabwe,Green Park,lbw b T J Friend,62,86,72.09
+263,256,12/14/2000,Zimbabwe,Madhavrao Scindia Cricket Ground,b M L Nkala,27,38,71.05
+264,257,3/25/2001,Australia,M Chinnaswamy Stadium,run out,35,26,134.62
+265,258,3/28/2001,Australia,Nehru Stadium (Pune),c D S Lehmann b D W Fleming,32,29,110.34
+266,259,3/31/2001,Australia,Nehru Stadium (Indore),c D W Fleming b G D McGrath,139,125,111.2
+267,260,4/3/2001,Australia,Indira Priyadarshini Stadium,c S R Waugh b N W Bracken,62,38,163.16
+268,261,4/6/2001,Australia,Nehru Stadium (Margao),c †A C Gilchrist b N W Bracken,12,15,80
+269,262,6/24/2001,Zimbabwe,Harare Sports Club,not out,70,70,100
+270,263,6/27/2001,Zimbabwe,Queens Sports Club,c G W Flower b B C Strang,9,27,33.33
+271,264,6/30/2001,West Indies,Queens Sports Club,not out,81,110,73.64
+272,265,7/4/2001,West Indies,Harare Sports Club,not out,122,131,93.13
+273,266,7/7/2001,West Indies,Harare Sports Club,c D Ganga b C D Collymore,0,4,0
+274,267,10/5/2001,South Africa,Wanderers Stadium,c H H Gibbs b J H Kallis,101,129,78.29
+275,268,10/10/2001,South Africa,SuperSport Park,c A Nel b M Ntini,38,57,66.67
+276,,10/12/2001,Kenya,Mangaung Oval,did not bat,,,
+277,269,10/17/2001,Kenya,St George's Park,b J O Angara,3,20,15
+278,270,10/19/2001,South Africa,Buffalo Park,b J H Kallis,37,35,105.71
+279,271,10/24/2001,Kenya,Boland Park,c M O Odumbe b T Odoyo,146,132,110.61
+280,272,10/26/2001,South Africa,Kingsmead,b M Hayward,17,42,40.48
+281,273,1/19/2002,England,Eden Gardens,b A Flintoff,36,43,83.72
+282,274,1/22/2002,England,Barabati Stadium,run out,45,60,75
+283,275,1/25/2002,England,MA Chidambaram Stadium,lbw b J N Snape,68,79,86.08
+284,276,1/28/2002,England,Green Park,not out,87,67,129.85
+285,277,1/31/2002,England,Arun Jaitley Stadium,c †J S Foster b A R Caddick,18,16,112.5
+286,278,2/3/2002,England,Wankhede Stadium,c †J S Foster b D Gough,12,18,66.67
+287,279,5/29/2002,West Indies,Kensington Oval,not out,34,45,75.56
+288,280,6/2/2002,West Indies,Queen's Park Oval,b M V Dillon,65,70,92.86
+289,281,6/29/2002,England,Lord's,lbw b R C Irani,1,9,11.11
+290,282,6/30/2002,Sri Lanka,Kennington Oval,c †R S Kaluwitharana b D N T Zoysa,49,70,70
+291,283,7/4/2002,England,Riverside Ground,not out,105,108,97.22
+292,284,7/6/2002,Sri Lanka,Edgbaston,c M S Atapattu b C R D Fernando,19,25,76
+293,285,7/9/2002,England,Kennington Oval,c †A J Stewart b M J Hoggard,36,29,124.14
+294,286,7/11/2002,Sri Lanka,County Ground (Bristol),c U D U Chandana b W P U J C Vaas,113,102,110.78
+295,287,7/13/2002,England,Lord's,b A F Giles,14,19,73.68
+296,288,9/14/2002,Zimbabwe,R Premadasa Stadium,c A D R Campbell b D T Hondo,7,16,43.75
+297,289,9/22/2002,England,R Premadasa Stadium,not out,9,20,45
+298,290,9/25/2002,South Africa,R Premadasa Stadium,run out,16,29,55.17
+299,,9/29/2002,Sri Lanka,R Premadasa Stadium,did not bat,,,
+300,291,9/30/2002,Sri Lanka,R Premadasa Stadium,not out,7,22,31.82
+301,292,1/8/2003,New Zealand,Westpac Stadium,lbw b S E Bond,0,10,0
+302,293,1/11/2003,New Zealand,Eden Park,c †B B McCullum b D R Tuffey,1,13,7.69
+303,294,1/14/2003,New Zealand,Seddon Park,c S P Fleming b D R Tuffey,1,6,16.67
+304,295,2/12/2003,Netherlands,Boland Park,c †J Smits b T B M de Leede,52,72,72.22
+305,296,2/15/2003,Australia,SuperSport Park,lbw b J N Gillespie,36,59,61.02
+306,297,2/19/2003,Zimbabwe,Harare Sports Club,b G W Flower,81,91,89.01
+307,298,2/23/2003,Namibia,City Oval,b R J van Vuuren,152,151,100.66
+308,299,2/26/2003,England,Kingsmead,c P D Collingwood b A Flintoff,50,52,96.15
+309,300,3/1/2003,Pakistan,SuperSport Park,c Younis Khan b Shoaib Akhtar,98,75,130.67
+310,301,3/7/2003,Kenya,Newlands,c A O Suji b M A Suji,5,12,41.67
+311,302,3/10/2003,Sri Lanka,Wanderers Stadium,c †K C Sangakkara b P A de Silva,97,120,80.83
+312,303,3/14/2003,New Zealand,SuperSport Park,c J D P Oram b D R Tuffey,15,16,93.75
+313,304,3/20/2003,Kenya,Kingsmead,c D O Obuya b S O Tikolo,83,101,82.18
+314,305,3/23/2003,Australia,Wanderers Stadium,c & b G D McGrath,4,5,80
+315,306,10/23/2003,New Zealand,MA Chidambaram Stadium,not out,48,66,72.73
+316,307,10/26/2003,Australia,Captain Roop Singh Stadium,c †A C Gilchrist b N W Bracken,100,119,84.03
+317,308,11/1/2003,Australia,Wankhede Stadium,b M J Clarke,68,76,89.47
+318,309,11/6/2003,New Zealand,Barabati Stadium,lbw b K D Mills,14,14,100
+319,310,11/12/2003,Australia,M Chinnaswamy Stadium,b I J Harvey,89,91,97.8
+320,311,11/15/2003,New Zealand,Lal Bahadur Shastri Stadium,c J D P Oram b C Z Harris,102,91,112.09
+321,312,11/18/2003,Australia,Eden Gardens,b A J Bichel,45,66,68.18
+322,313,1/9/2004,Australia,Melbourne Cricket Ground,c R T Ponting b A Symonds,63,69,91.3
+323,314,1/14/2004,Zimbabwe,Bellerive Oval,b S M Ervine,44,59,74.58
+324,315,1/18/2004,Australia,Brisbane Cricket Ground,c & b A Symonds,86,95,90.53
+325,316,2/1/2004,Australia,WACA Ground,c M L Hayden b B Lee,5,6,83.33
+326,317,2/3/2004,Zimbabwe,WACA Ground,c †T Taibu b H H Streak,3,8,37.5
+327,318,2/6/2004,Australia,Melbourne Cricket Ground,b B Lee,8,22,36.36
+328,319,2/8/2004,Australia,Sydney Cricket Ground,c B Lee b J N Gillespie,27,40,67.5
+329,320,3/13/2004,Pakistan,National Stadium (Karachi),c NavedulHasan b Shoaib Akhtar,28,35,80
+330,321,3/16/2004,Pakistan,Rawalpindi Cricket Stadium,c Abdul Razzaq b Shoaib Malik,141,135,104.44
+331,322,3/19/2004,Pakistan,Arbab Niaz Stadium,c †Moin Khan b Shabbir Ahmed,0,5,0
+332,323,3/21/2004,Pakistan,Gaddafi Stadium,c †Moin Khan b Shoaib Akhtar,7,13,53.85
+333,324,3/24/2004,Pakistan,Gaddafi Stadium,c †Moin Khan b Mohammad Sami,37,48,77.08
+334,325,7/16/2004,United Arab Emirates,Rangiri Dambulla International Stadium,c Fahad Usman b Asim Saeed,18,25,72
+335,326,7/18/2004,Sri Lanka,Rangiri Dambulla International Stadium,c W S Jayantha b D N T Zoysa,11,13,84.62
+336,327,7/21/2004,Bangladesh,Sinhalese Sports Club Ground,not out,82,126,65.08
+337,328,7/24/2004,Pakistan,R Premadasa Stadium,c Imran Nazir b Shoaib Malik,78,103,75.73
+338,329,7/27/2004,Sri Lanka,R Premadasa Stadium,lbw b D N T Zoysa,18,21,85.71
+339,330,8/1/2004,Sri Lanka,R Premadasa Stadium,b T M Dilshan,74,100,74
+340,331,11/13/2004,Pakistan,Eden Gardens,run out,16,17,94.12
+341,332,12/23/2004,Bangladesh,MA Aziz Stadium,c †Khaled Mashud b Nazmul Hossain,19,32,59.38
+342,333,12/27/2004,Bangladesh,Bangabandhu National Stadium,c †Khaled Mashud b Khaled Mahmud,47,42,111.9
+343,334,4/2/2005,Pakistan,Nehru Stadium (Kochi),c Mohammad Yousuf b NavedulHasan,4,4,100
+344,335,4/5/2005,Pakistan,Dr YS Rajasekhara Reddy Cricket Stadium,run out,2,8,25
+345,336,4/9/2005,Pakistan,Keenan Stadium,c Younis Khan b Mohammad Sami,6,11,54.55
+346,337,4/12/2005,Pakistan,Narendra Modi Stadium,b Shoaib Malik,123,130,94.62
+347,338,4/15/2005,Pakistan,Green Park,c †Kamran Akmal b NavedulHasan,1,10,10
+348,339,4/17/2005,Pakistan,Arun Jaitley Stadium,b Iftikhar Anjum,9,15,60
+349,340,10/25/2005,Sri Lanka,Vidarbha Cricket Association Ground,c †K C Sangakkara b M F Maharoof,93,96,96.88
+350,341,10/28/2005,Sri Lanka,Punjab Cricket Association IS Bindra Stadium,not out,67,69,97.1
+351,342,10/31/2005,Sri Lanka,Sawai Mansingh Stadium,c †K C Sangakkara b W P U J C Vaas,2,3,66.67
+352,343,11/3/2005,Sri Lanka,Nehru Stadium (Pune),b W P U J C Vaas,11,19,57.89
+353,344,11/9/2005,Sri Lanka,Madhavrao Scindia Cricket Ground,c M F Maharoof b C R D Fernando,19,30,63.33
+354,345,11/12/2005,Sri Lanka,Reliance Stadium,c & b D N T Zoysa,39,48,81.25
+355,346,11/16/2005,South Africa,Rajiv Gandhi International Stadium,c †M V Boucher b S M Pollock,2,9,22.22
+356,347,11/19/2005,South Africa,M Chinnaswamy Stadium,c sub b S M Pollock,2,22,9.09
+357,348,11/25/2005,South Africa,Eden Gardens,c †M V Boucher b S M Pollock,2,15,13.33
+358,349,11/28/2005,South Africa,Wankhede Stadium,c A G Prince b A Nel,30,44,68.18
+359,350,2/6/2006,Pakistan,Arbab Niaz Stadium,lbw b Arshad Khan,100,113,88.5
+360,351,2/11/2006,Pakistan,Rawalpindi Cricket Stadium,c †Kamran Akmal b Abdul Razzaq,42,43,97.67
+361,352,2/13/2006,Pakistan,Gaddafi Stadium,c sub b Abdul Razzaq,95,104,91.35
+362,353,2/16/2006,Pakistan,Multan Cricket Stadium,c †Kamran Akmal b Mohammad Sami,0,3,0
+363,354,8/18/2006,Sri Lanka,Sinhalese Sports Club Ground,not out,2,3,66.67
+364,355,9/14/2006,West Indies,Kinrara Academy Oval,not out,141,148,95.27
+365,356,9/16/2006,Australia,Kinrara Academy Oval,c †B J Haddin b M G Johnson,12,17,70.59
+366,357,9/20/2006,West Indies,Kinrara Academy Oval,run out,65,102,63.73
+367,358,9/22/2006,Australia,Kinrara Academy Oval,c M E K Hussey b B Lee,4,10,40
+368,359,10/15/2006,England,Sawai Mansingh Stadium,lbw b S J Harmison,35,41,85.37
+369,360,10/26/2006,West Indies,Narendra Modi Stadium,b I D R Bradshaw,29,45,64.44
+370,361,10/29/2006,Australia,Punjab Cricket Association IS Bindra Stadium,c †A C Gilchrist b G D McGrath,10,26,38.46
+371,362,11/22/2006,South Africa,Kingsmead,b A Nel,35,51,68.63
+372,363,11/26/2006,South Africa,Newlands,c L L Bosman b S M Pollock,2,9,22.22
+373,364,11/29/2006,South Africa,St George's Park,c †M V Boucher b S M Pollock,1,3,33.33
+374,365,12/3/2006,South Africa,SuperSport Park,c A B de Villiers b J M Kemp,55,97,56.7
+375,366,1/21/2007,West Indies,Vidarbha Cricket Association Ground,lbw b C H Gayle,31,38,81.58
+376,367,1/24/2007,West Indies,Barabati Stadium,c D S Smith b D B Powell,0,6,0
+377,368,1/27/2007,West Indies,MA Chidambaram Stadium,c R S Morton b D J Bravo,60,66,90.91
+378,369,1/31/2007,West Indies,Reliance Stadium,not out,100,76,131.58
+379,,2/8/2007,Sri Lanka,Eden Gardens,did not bat,,,
+380,370,2/11/2007,Sri Lanka,Madhavrao Scindia Cricket Ground,st K C Sangakkara b C M Bandara,54,61,88.52
+381,371,2/14/2007,Sri Lanka,Nehru Stadium (Margao),b K M D N Kulasekara,1,8,12.5
+382,372,3/17/2007,Bangladesh,Queen's Park Oval,c †Mushfiqur Rahim b Abdur Razzak,7,26,26.92
+383,373,3/19/2007,Bermuda,Queen's Park Oval,not out,57,29,196.55
+384,374,3/23/2007,Sri Lanka,Queen's Park Oval,b C R D Fernando,0,3,0
+385,375,6/23/2007,Ireland,Civil Service Cricket Club,b R K Whelan,4,3,133.33
+386,376,6/26/2007,South Africa,Civil Service Cricket Club,run out,99,143,69.23
+387,377,6/29/2007,South Africa,Civil Service Cricket Club,b T Tshabalala,93,106,87.74
+388,378,7/1/2007,South Africa,Civil Service Cricket Club,c †M V Boucher b M Ntini,8,8,100
+389,379,8/21/2007,England,The Rose Bowl,c R S Bopara b J M Anderson,17,33,51.52
+390,380,8/24/2007,England,County Ground (Bristol),c †M J Prior b A Flintoff,99,112,88.39
+391,381,8/27/2007,England,Edgbaston,c P D Collingwood b J M Anderson,8,19,42.11
+392,382,8/30/2007,England,Old Trafford,c A Flintoff b K P Pietersen,55,86,63.95
+393,383,9/2/2007,England,Headingley,c †M J Prior b J Lewis,71,59,120.34
+394,384,9/5/2007,England,Kennington Oval,c P D Collingwood b M S Panesar,94,81,116.05
+395,385,9/8/2007,England,Lord's,c †M J Prior b A Flintoff,30,46,65.22
+396,386,9/29/2007,Australia,M Chinnaswamy Stadium,lbw b M G Johnson,0,6,0
+397,387,10/2/2007,Australia,Nehru Stadium (Kochi),c A Symonds b S R Clark,16,25,64
+398,388,10/5/2007,Australia,Rajiv Gandhi International Stadium,b G B Hogg,43,71,60.56
+399,389,10/8/2007,Australia,Sector 16 Stadium,run out,79,119,66.39
+400,390,10/11/2007,Australia,Reliance Stadium,c †A C Gilchrist b B Lee,47,73,64.38
+401,391,10/14/2007,Australia,Vidarbha Cricket Association Ground,st A C Gilchrist b J R Hopes,72,72,100
+402,392,10/17/2007,Australia,Wankhede Stadium,b B Lee,21,36,58.33
+403,393,11/5/2007,Pakistan,Nehru Stadium (Guwahati),lbw b Shoaib Akhtar,4,7,57.14
+404,394,11/8/2007,Pakistan,Punjab Cricket Association IS Bindra Stadium,c †Kamran Akmal b Umar Gul,99,91,108.79
+405,395,11/11/2007,Pakistan,Green Park,c †Kamran Akmal b Sohail Tanvir,29,27,107.41
+406,396,11/15/2007,Pakistan,Captain Roop Singh Stadium,b Umar Gul,97,102,95.1
+407,397,11/18/2007,Pakistan,Sawai Mansingh Stadium,c MisbahulHaq b Sohail Tanvir,30,27,111.11
+408,398,2/3/2008,Australia,Brisbane Cricket Ground,hit wicket b B Lee,10,17,58.82
+409,399,2/4/2008,Sri Lanka,Brisbane Cricket Ground,b S L Malinga,35,52,67.31
+410,400,2/10/2008,Australia,Melbourne Cricket Ground,c B Lee b M G Johnson,44,54,81.48
+411,401,2/12/2008,Sri Lanka,Manuka Oval,c K M D N Kulasekara b M F Maharoof,32,30,106.67
+412,402,2/17/2008,Australia,Adelaide Oval,lbw b N W Bracken,5,15,33.33
+413,403,2/19/2008,Sri Lanka,Adelaide Oval,b S L Malinga,0,2,0
+414,404,2/24/2008,Australia,Sydney Cricket Ground,lbw b B Lee,2,3,66.67
+415,405,2/26/2008,Sri Lanka,Bellerive Oval,c L P C Silva b M Muralitharan,63,54,116.67
+416,406,3/2/2008,Australia,Sydney Cricket Ground,not out,117,120,97.5
+417,407,3/4/2008,Australia,Brisbane Cricket Ground,c R T Ponting b M J Clarke,91,121,75.21
+418,408,11/23/2008,England,M Chinnaswamy Stadium,b S C J Broad,11,21,52.38
+419,409,11/26/2008,England,Barabati Stadium,b S J Harmison,50,57,87.72
+420,410,1/28/2009,Sri Lanka,Rangiri Dambulla International Stadium,lbw b T Thushara,5,16,31.25
+421,411,1/31/2009,Sri Lanka,R Premadasa Stadium,lbw b K M D N Kulasekara,6,9,66.67
+422,412,2/3/2009,Sri Lanka,R Premadasa Stadium,lbw b C R D Fernando,7,12,58.33
+423,413,3/3/2009,New Zealand,McLean Park,c †B B McCullum b I G Butler,20,23,86.96
+424,414,3/6/2009,New Zealand,Westpac Stadium,lbw b D L Vettori,61,69,88.41
+425,415,3/8/2009,New Zealand,AMI Stadium,retired hurt,163,133,122.56
+426,416,9/11/2009,New Zealand,R Premadasa Stadium,c M J Guptill b D L Vettori,46,55,83.64
+427,417,9/12/2009,Sri Lanka,R Premadasa Stadium,c B A W Mendis b K M D N Kulasekara,27,33,81.82
+428,418,9/14/2009,Sri Lanka,R Premadasa Stadium,lbw b B A W Mendis,138,133,103.76
+429,419,9/26/2009,Pakistan,SuperSport Park,c †Kamran Akmal b Mohammad Amir,8,14,57.14
+430,,9/28/2009,Australia,SuperSport Park,did not bat,,,
+431,420,10/25/2009,Australia,Reliance Stadium,c R T Ponting b S R Watson,14,29,48.28
+432,421,10/28/2009,Australia,Vidarbha Cricket Association Stadium,c C L White b P M Siddle,4,8,50
+433,422,10/31/2009,Australia,Arun Jaitley Stadium,run out,32,47,68.09
+434,423,11/2/2009,Australia,Punjab Cricket Association IS Bindra Stadium,lbw b N M Hauritz,40,68,58.82
+435,424,11/5/2009,Australia,Rajiv Gandhi International Stadium,c N M Hauritz b C J McKay,175,141,124.11
+436,425,11/8/2009,Australia,Nehru Stadium (Guwahati),c & b D E Bollinger,10,17,58.82
+437,426,12/15/2009,Sri Lanka,Madhavrao Scindia Cricket Ground,b C R D Fernando,69,63,109.52
+438,427,12/18/2009,Sri Lanka,Vidarbha Cricket Association Stadium,st K C Sangakkara b B A W Mendis,43,52,82.69
+439,428,12/21/2009,Sri Lanka,Barabati Stadium,not out,96,104,92.31
+440,429,12/24/2009,Sri Lanka,Eden Gardens,c S Randiv b R A S Lakmal,8,8,100
+441,430,2/21/2010,South Africa,Sawai Mansingh Stadium,run out,4,5,80
+442,431,2/24/2010,South Africa,Captain Roop Singh Stadium,not out,200,147,136.05
+443,432,1/12/2011,South Africa,Kingsmead,c D W Steyn b L L Tsotsobe,7,11,63.64
+444,433,1/15/2011,South Africa,Wanderers Stadium,b J Botha,24,44,54.55
+445,434,2/19/2011,Bangladesh,Shere Bangla National Stadium,run out,28,29,96.55
+446,435,2/27/2011,England,M Chinnaswamy Stadium,c M H Yardy b J M Anderson,120,115,104.35
+447,436,3/6/2011,Ireland,M Chinnaswamy Stadium,lbw b G H Dockrell,38,56,67.86
+448,437,3/9/2011,Netherlands,Arun Jaitley Stadium,c B P Kruger b P M Seelaar,27,22,122.73
+449,438,3/12/2011,South Africa,Vidarbha Cricket Association Stadium,c JP Duminy b M Morkel,111,101,109.9
+450,439,3/20/2011,West Indies,MA Chidambaram Stadium,c †D C Thomas b R Rampaul,2,4,50
+451,440,3/24/2011,Australia,Narendra Modi Stadium,c †B J Haddin b S W Tait,53,68,77.94
+452,441,3/30/2011,Pakistan,Punjab Cricket Association IS Bindra Stadium,c Shahid Afridi b Saeed Ajmal,85,115,73.91
+453,442,4/2/2011,Sri Lanka,Wankhede Stadium,c †K C Sangakkara b S L Malinga,18,14,128.57
+454,443,2/5/2012,Australia,Melbourne Cricket Ground,c R T Ponting b M A Starc,2,6,33.33
+455,444,2/8/2012,Sri Lanka,WACA Ground,b A D Mathews,48,63,76.19
+456,445,2/14/2012,Sri Lanka,Adelaide Oval,c †K C Sangakkara b K M D N Kulasekara,15,24,62.5
+457,446,2/19/2012,Australia,Brisbane Cricket Ground,c X J Doherty b B W Hilfenhaus,3,12,25
+458,447,2/21/2012,Sri Lanka,Brisbane Cricket Ground,b K M D N Kulasekara,22,23,95.65
+459,448,2/26/2012,Australia,Sydney Cricket Ground,run out,14,15,93.33
+460,449,2/28/2012,Sri Lanka,Bellerive Oval,lbw b S L Malinga,39,30,130
+461,450,3/13/2012,Sri Lanka,Shere Bangla National Stadium,c D P M D Jayawardene b R A S Lakmal,6,19,31.58
+462,451,3/16/2012,Bangladesh,Shere Bangla National Stadium,c †Mushfiqur Rahim b Mashrafe Mortaza,114,147,77.55
+463,452,3/18/2012,Pakistan,Shere Bangla National Stadium,c Younis Khan b Saeed Ajmal,52,48,108.33

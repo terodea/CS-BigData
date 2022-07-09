@@ -23,20 +23,20 @@
 ```SQL
 WITH cte_rank AS (
     SELECT
-        id, c1, c2, row_number() over(PARTITION BY c1 ORDER BY id DESC) as duplicate_rank
+        id, c1, c2, ROW_NUMBER() over(PARTITION BY c1 ORDER BY id DESC) as duplicate_rank
     FROM my_table
 )
 cte_distinct_order AS (
     SELECT
-        DISTINCT(id) AS id FROM my_table
+        DISTINCT(c1) AS c1 FROM my_table
 )
 
 SELECT 
-	cdo.id, c1, c2
+	id, cdo.c1, c2
 FROM
 	cte_rank cr
     INNER JOIN cte_distinct_order cdo
-        ON cr.id = cdo.id
+        ON cr.c1 = cdo.c1 
 WHERE
 	cr.duplicate_rank = 1;
 ```
