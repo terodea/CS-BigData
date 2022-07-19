@@ -107,7 +107,7 @@ object PersonBuilderTypeSafeExample {
       .setAge(26)
       .setDepartmentId(1)
       .setCity("London")
-      .build()
+//      .build()
     System.out.println(s"Person: ${person.firstName} ${person.lastName}. Age: ${person.age}. City: ${person.city}. Department: ${person.departmentId}")
 //    System.out.println(s"Person: ${person.firstName} ${person.lastName}. Age: ${person.age}.")
   }
